@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SearchFragment">
+
+    <TextView
+        android:id="@+id/searchTitle"
+        style="@style/titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/topGenres"
+        style="@style/titulo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topGenres"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchTitle" />
+
+    <Button
+        android:id="@+id/latin"
+        style="@style/botonGenre"
+        android:text="@string/latin"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/latin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rap"
+        app:layout_constraintTop_toBottomOf="@+id/topGenres" />
+
+    <Button
+        android:id="@+id/rap"
+        style="@style/botonGenre"
+        android:text="@string/rap"
+        android:backgroundTint="@color/rap"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/latin"
+        app:layout_constraintTop_toBottomOf="@+id/topGenres" />
+    <Button
+        android:id="@+id/kpop"
+        style="@style/botonGenre"
+        android:text="@string/kpop"
+        android:backgroundTint="@color/kpop"
+        app:layout_constraintEnd_toStartOf="@+id/trap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latin" />
+    <Button
+        android:id="@+id/trap"
+        style="@style/botonGenre"
+        android:text="@string/trap"
+        android:backgroundTint="@color/trap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kpop"
+        app:layout_constraintTop_toBottomOf="@+id/latin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

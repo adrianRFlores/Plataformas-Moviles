@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Laboratorio6</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="gudmornin">Good Morning,</string>
+    <string name="name">Adrián Flores</string>
+    <string name="search">Search</string>
+    <string name="topGenres">Your top genres</string>
+    <string name="latin">Latin</string>
+    <string name="rap">Rap</string>
+    <string name="kpop">K-Pop</string>
+    <string name="trap">Trap</string>
+    <string name="yourLib">Your Library</string>
+    <string name="liked">Liked Songs</string>
+    <string name="recent">Most recent</string>
+</resources>

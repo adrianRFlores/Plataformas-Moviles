@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padTop">45dp</dimen>
+    <dimen name="padStart">20dp</dimen>
+    <dimen name="padTop2">23dp</dimen>
+    <dimen name="marginBtnTop">3dp</dimen>
+    <dimen name="padBtnTxt">9dp</dimen>
+    <dimen name="sides">170dp</dimen>
+    <dimen name="height">115dp</dimen>
+    <dimen name="titulo">32sp</dimen>
+    <dimen name="textoNombre">24sp</dimen>
+    <dimen name="texto">28sp</dimen>
+    <dimen name="textoMini">16sp</dimen>
+
+</resources>

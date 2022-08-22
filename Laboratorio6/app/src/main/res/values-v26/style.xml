@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titulo" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/titulo</item>
+        <item name="android:font">@font/montserratsemibold</item>
+    </style>
+    <style name="nombre" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/inactivo</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:font">@font/montserratlight</item>
+    </style>
+    <style name="titulo2" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:font">@font/montserratbold</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_marginTop">@dimen/padTop</item>
+        <item name="android:layout_marginStart">@dimen/padStart</item>
+    </style>
+    <style name="titulo3" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textoMini</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:font">@font/montserratsemibold</item>
+        <item name="android:layout_marginTop">@dimen/padTop2</item>
+        <item name="android:layout_marginStart">@dimen/padStart</item>
+    </style>
+    <style name="botonGenre" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textoMini</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:font">@font/montserratsemibold</item>
+        <item name="android:layout_width">@dimen/sides</item>
+        <item name="android:layout_height">@dimen/height</item>
+        <item name="android:layout_marginTop">@dimen/marginBtnTop</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:paddingTop">@dimen/padBtnTxt</item>
+        <item name="android:paddingStart">@dimen/padBtnTxt</item>
+    </style>
+</resources>
