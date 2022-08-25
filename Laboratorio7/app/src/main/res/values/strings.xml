@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Laboratorio7</string>
+    <string name="laboratorio_7">Laboratorio 7</string>
+    <string name="nuevo_usuario">¿Nuevo usuario? ¡Crea tu cuenta aqui!</string>
+    <string name="inputMail">Ingresa tu correo</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="nueva_cuenta">Nueva cuenta</string>
+    <string name="crearCuenta">Crear cuenta</string>
+    <string name="gudmornin">¡Buenos días!</string>
+    <string name="actualizarperfil">Actualizar perfil</string>
+    <string name="miPerfil">Mi perfil</string>
+    <string name="actualizar">Actualizar</string>
+</resources>

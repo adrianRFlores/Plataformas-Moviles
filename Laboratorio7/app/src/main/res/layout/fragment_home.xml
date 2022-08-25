@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeFragment">
+
+<TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buenosDias"
+        style="@style/titulo"
+        android:text="@string/gudmornin"
+        android:layout_marginHorizontal="@dimen/marginTopTitle"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/prompt"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginHorizontal="@dimen/margin"
+        app:layout_constraintTop_toBottomOf="@+id/buenosDias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Hola jcdurini@uvg.edu.gt, ¡necesitamos que\n actualices tu perfil!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/actualizarBtn"
+        />
+
+    <Button
+        android:id="@+id/actualizarBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/naranja"
+        android:layout_marginTop="@dimen/marginSmol"
+        android:text="@string/actualizarperfil"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/prompt"
+        app:layout_constraintStart_toStartOf="@id/buenosDias"
+        app:layout_constraintEnd_toEndOf="@id/buenosDias"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

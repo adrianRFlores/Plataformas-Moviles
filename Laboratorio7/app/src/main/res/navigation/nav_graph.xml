@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.laboratorio7.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <argument
+            android:name="email"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_loginFragment_to_NewAccountFragment"
+            app:destination="@id/NewAccountFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/NewAccountFragment"
+        android:name="com.example.laboratorio7.NewAccountFragment"
+        android:label="fragment_newaccount"
+        tools:layout="@layout/fragment_newaccount" >
+        <action
+            android:id="@+id/action_NewAccountFragment_to_LoginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.laboratorio7.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="email"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_HomeFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment"
+            app:popUpTo="@id/HomeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.laboratorio7.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="email"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_ProfileFragment_to_LoginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+</navigation>
