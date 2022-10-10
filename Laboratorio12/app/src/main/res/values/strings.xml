@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FrontEnd Básico</string>
+    <string name="actualizacion">Actualización disponible</string>
+    <string name="descargar">Descargar</string>
+    <string name="dia">Domingo</string>
+    <string name="fecha">4 de diciembre</string>
+    <string name="jornada">Terminar jornada</string>
+    <string name="restaurante">Velvet Bistro</string>
+    <string name="direccion">C.C. La Estación, 6a. Avenida Zona 10</string>
+    <string name="horario">8:00AM 8:00PM</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="detalles">Detalles</string>
+</resources>
