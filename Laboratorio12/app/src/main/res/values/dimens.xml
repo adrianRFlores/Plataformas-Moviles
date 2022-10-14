@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo">45sp</dimen>
+    <dimen name="margin_large">35dp</dimen>
+    <dimen name="margin_medium">6dp</dimen>
+    <dimen name="margin_smol">3dp</dimen>
+    <dimen name="text_size">13sp</dimen>
+</resources>
